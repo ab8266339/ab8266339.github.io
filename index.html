@@ -1,129 +1,186 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
-<link rel="shortcut icon" href="https://github.com/ab8266339//favicon.ico?v=1587743630784">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://github.com/ab8266339//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea - Atom Feed" href="https://github.com/ab8266339//atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Hao Xu - Assistant Professor at Tongji University</title>
+    <meta name="description" content="Dr. Hao Xu is an Assistant Professor at Tongji University, specializing in blockchain consensus mechanisms, decentralized network architectures, wireless communications, and data privacy security.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
 
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
 
-    <meta name="description" content="打开无线区块链的大门" />
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://github.com/ab8266339/">
-  <img class="avatar" src="https://github.com/ab8266339//images/avatar.png?v=1587743630784" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    打开无线区块链的大门
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/ab8266339" target="_blank">
-          <i class="ri-github-line"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-        <a href="https://www.zhihu.com/people/h.xu" target="_blank">
-          <i class="ri-zhihu-line"></i>
-        </a>
-      
-    
-      
-    
-  </div>
-</div>
+        header {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://github.com/ab8266339/post/hello-gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2018-12-11
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="https://github.com/ab8266339/tag/yPYFDlq7k/" class="post-tag">
-            # Gridea
-          </a>
-        
-      </div>
-      
-        <a href="https://github.com/ab8266339/post/hello-gridea/" class="post-feature-image" style="background-image: url('https://github.com/ab8266339//post-images/hello-gridea.png')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        h1 {
+            color: #1a1a1a;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
 
-      </div>
-    </article>
-  
-</div>
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
 
-    
-        <div class="pagination-container">
-  
-  
-</div>
+        .links {
+            margin-top: 20px;
+        }
 
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://github.com/ab8266339//atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
+        .links a {
+            display: inline-block;
+            margin-right: 20px;
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: 500;
+        }
 
-      </div>
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background: white;
+            padding: 30px 40px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1a1a1a;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0366d6;
+            padding-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            header, section {
+                padding: 20px;
+            }
+
+            .container {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dr. Hao Xu</h1>
+            <p class="subtitle">Assistant Professor & Master's Supervisor<br>
+            College of Electronics and Information Engineering<br>
+            Tongji University</p>
+            <p class="subtitle" style="font-style: italic;">打开无线区块链的大门</p>
+            <div class="links">
+                <a href="https://github.com/ab8266339" target="_blank">GitHub</a>
+                <a href="https://www.zhihu.com/people/h.xu" target="_blank">知乎</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Biography</h2>
+            <p><strong>Dr. Hao Xu</strong> is an Assistant Professor and Master's Supervisor at the College of Electronics and Information Engineering, Tongji University. He received his Ph.D. in Electrical Engineering from the University of Glasgow, United Kingdom, in 2022. Prior to joining Tongji University, Dr. Xu served as a Postdoctoral Research Associate at the University of Glasgow, a Long-term Visiting Researcher at China Mobile Research Institute, and a Senior Engineer at Huawei Technologies Co., Ltd.</p>
+        </section>
+
+        <section>
+            <h2>Honors and Awards</h2>
+            <p>In 2024, Dr. Xu was selected for multiple prestigious talent programs, including:</p>
+            <ul>
+                <li>Shanghai Overseas High-level Talent Program (Youth Category)</li>
+                <li>Shanghai Pujiang Talent Program</li>
+                <li>Qiming Star-Yangfan Special Program</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Blockchain consensus mechanisms</li>
+                <li>Decentralized network architectures</li>
+                <li>Wireless communications</li>
+                <li>Data privacy and security</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Publications and Impact</h2>
+            <p>Since 2020, Dr. Xu has published over 30 peer-reviewed papers, including 10 articles in SCI-indexed journals. His work has garnered more than 1,500 citations on Google Scholar, with citations appearing in high-impact journals such as <em>The Lancet</em> and <em>Nature</em>. Notably, his research includes:</p>
+            <ul>
+                <li>Two ESI Highly Cited Papers (441 citations and 251 citations, respectively)</li>
+                <li>One additional highly cited paper (229 citations)</li>
+                <li>Three papers with over 100 citations each</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Patents, Standards, and Book Chapters</h2>
+            <p>Dr. Xu holds 10 invention patents (including 1 UK patent) and has contributed to 5 ETSI/O-RAN international standards. He has also authored 3 academic book chapters in his field.</p>
+        </section>
+
+        <section>
+            <h2>Research Projects</h2>
+            <p>Dr. Xu has participated in 2 EPSRC-funded projects on blockchain and Internet of Things (IoT). He currently serves as Co-Principal Investigator (Co-PI) on an industry-collaborative research project.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>For research collaboration and academic inquiries, please reach out via institutional channels.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Dr. Hao Xu. All rights reserved.</p>
+        </footer>
     </div>
-  </body>
+</body>
 </html>
