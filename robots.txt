@@ -1,0 +1,6 @@
+# Allow all search engines to index the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ab8266339.github.io/sitemap.xml
